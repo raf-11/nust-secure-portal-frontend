@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "./firebase/config";
+import { auth, db } from "./modules/firebase/config";
 
 import Navbar from "c:/Users/RBTGL/projects/helloworld/NustSecurePortal/Frontend/src/components/navbar";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
